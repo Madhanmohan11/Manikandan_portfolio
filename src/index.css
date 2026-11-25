@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Roboto Condensed', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* Custom subtle scroll offset for fixed navbar */
+section[id] {
+  scroll-margin-top: 64px;
+}
+
